@@ -3,8 +3,10 @@ import QrCard from "./components/QrCard";
 
 export default function Home() {
   return (
-    <section className="h-dvh w-full flex flex-row justify-center items-center bg-slate-300">
-      <QrCard />
-    </section>
+    <main>
+      <section className="h-dvh w-full flex flex-row justify-center items-center bg-slate-300">
+        <QrCard />
+      </section>
+    </main>
   );
 }
