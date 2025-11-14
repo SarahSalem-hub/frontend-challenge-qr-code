@@ -13,14 +13,14 @@ export default function QrCard({}: Props) {
           width={288}
           height={288}
           alt="qr code image"
-          className="rounded-3xl"
+          className="rounded-[10px]"
         />
       </figure>
 
       <div
         className={`${outfit.className} flex flex-col text-center gap-4 px-4 w-2xs`}
       >
-        <h1 className="tracking-normall text-xl leading-[120%] text-slate-900 font-black">
+        <h1 className="tracking-normall text-[22px] leading-[120%] text-slate-900 font-black">
           Improve your front-end skills by building projects
         </h1>
         <p className="text-[15px] text-slate-500 leading-[140%] tracking-[0.2px]">
