@@ -6,7 +6,7 @@ type Props = {};
 
 export default function QrCard({}: Props) {
   return (
-    <article className="h-auto flex flex-col flex-wrap gap-6 pt-4 px-4 pb-10 bg-white rounded-3xl max-w-sm">
+    <article className="h-auto flex flex-col flex-wrap gap-6 pt-4 px-4 pb-10 bg-white rounded-3xl max-w-sm drop-shadow-[0_25px_25px_rgba(0,0,0,0.047)]">
       <figure>
         <Image
           src="/images/image-qr-code.png"
