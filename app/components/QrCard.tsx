@@ -20,7 +20,7 @@ export default function QrCard({}: Props) {
       <div
         className={`${outfit.className} flex flex-col text-center gap-4 px-4 w-2xs`}
       >
-        <h1 className="tracking-normall text-[22px] leading-[120%] text-slate-900 font-black">
+        <h1 className="tracking-normall text-[22px] leading-[120%] text-[#1F314F] font-black">
           Improve your front-end skills by building projects
         </h1>
         <p className="text-[15px] text-slate-500 leading-[140%] tracking-[0.2px]">
